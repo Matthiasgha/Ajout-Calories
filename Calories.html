@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calories Selector</title>
+</head>
+<body>
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="Calories.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+    </head>
+    <body>
+        <form action="">
+            <table>
+                <tr>
+                    <td>
+                        <h4>Tableau de calories</h4>
+                        <select name="liste1" id="select1" size="13" style="width:360px;" onclick="alimentation(this.form.liste1, this.form.liste2)">
+                            <option value="" disabled>Faite votre choix</option>
+                            <option value="34">1. Abricot (34 kcal pour 100g)</option>
+                            <option value="50">2. Ananas (50 kcal pour 100g)</option>
+                            <option value="134">3. Avocat (134 kcal pour 100g)</option>
+                            <option value="39">4. Clémentine (39 kcal pour 100g)</option>
+                            <option value="68">5. Compote de pommes (68 kcal pour 100g)</option>
+                            <option value="67">6. Fruit de la passion (67 kcal pour 100g)</option>
+                            <option value="50">7. Oranges sanguines (50 kcal pour 100g)</option>
+                            <option value="175">8. Rôti de veau (175 kcal pour 100g)</option>
+                            <option value="250">9. Viande hachée (250 kcal pour 100g)</option>
+                            <option value="334">10. Brie (334 kcal pour 100g)</option>
+                            <option value="276">11. Chaource (276 kcal pour 100g)</option>
+                            <option value="348">12. Maroilles (348 kcal pour 100g)</option>
+                        </select>
+                    </td>
+                    <td>
+                        <select name="liste2" id="select2" size="13" style="width:360px;" onclick="alimentation(this.form.liste2, this.form.liste1)"></select>
+                    </td>
+                </tr>
+            </table>                
+            <h2 id="kcal"></h2>
+            <button type="button" onclick="resetForm()">Reset</button>
+        </form>
+    
+    <script defer src="Calories.js" ></script>
+    </body>
+    </html>  
+</body>
+</html>
