@@ -1,5 +1,4 @@
-# Ajout-Calories
-
+# Tableau de Calories
 
 ## Description
 Ce projet permet à l'utilisateur de sélectionner des aliments à partir d'un tableau, d'ajouter ces aliments à une liste et de calculer le total des calories. Il offre également un bouton de réinitialisation pour effacer toutes les sélections et réinitialiser le calcul des calories.
@@ -26,5 +25,6 @@ Ce projet permet à l'utilisateur de sélectionner des aliments à partir d'un t
 ## Utilisation
 1. Sélectionnez un aliment dans la liste de gauche.
 2. Cliquez dessus pour l'ajouter à la liste de droite.
-3. Le total des calories sera mis à jour en bas de la page.
-4. Utilisez le bouton "Réinitialiser" pour effacer toutes les sélections et recommencer.
+3. Cliquez sur la liste droite pour l'enlever à la liste de droite.
+4. Le total des calories sera mis à jour en bas de la page.
+5. Utilisez le bouton "Réinitialiser" pour effacer toutes les sélections et recommencer.
