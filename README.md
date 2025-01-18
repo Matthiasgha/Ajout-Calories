@@ -15,13 +15,13 @@ Ce projet permet à l'utilisateur de sélectionner des aliments à partir d'un t
 - JavaScript
 
 ## Structure des fichiers
-- `index.html`: Contient la structure HTML du tableau de sélection.
-- `style.css`: Contient les styles CSS pour l'interface utilisateur.
-- `selection.js`: Contient le code JavaScript pour gérer la logique de sélection d'aliments et le calcul des calories.
+- `Calories.html`: Contient la structure HTML du tableau de sélection.
+- `Calories.css`: Contient les styles CSS pour l'interface utilisateur.
+- `Calories.js`: Contient le code JavaScript pour gérer la logique de sélection d'aliments et le calcul des calories.
 
 ## Installation
 1. Clonez ce dépôt ou téléchargez les fichiers sur votre machine locale.
-2. Ouvrez le fichier `index.html` dans votre navigateur pour voir le projet en action.
+2. Ouvrez le fichier `Calories.html` dans votre navigateur pour voir le projet en action.
 
 ## Utilisation
 1. Sélectionnez un aliment dans la liste de gauche.
